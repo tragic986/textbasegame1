@@ -20,3 +20,11 @@ def main():
 
 if __name__ == '__main__':
     main()
+def floor2()
+    print("You enter the main hall, go left or right? >")
+
+def floor1():
+  print("there are 6 rooms on floor 1")
+  print("which Room do you want enter?, living room, bathroom, or kitchen")
+
+  if room_picked == 1
