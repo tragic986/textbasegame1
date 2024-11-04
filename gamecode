@@ -1,0 +1,22 @@
+def start_adventure():
+
+    print("You entered a haunted mansion, to get cover from the rain")
+    print("You are at the entrance and you see that there are 2 floors and many rooms, you have nothings to do while you wating for the rain to stop so you decide to explore the mansion")
+    floor_picked = input("You see a staircase leading to another floor, Do you go up to the second floor (2) or stay on the first floor (1) > ")
+
+    if floor_picked == "1":
+        print("You stay on the first floor")
+    elif floor_picked == "2":
+        print("You are going up the stairs")
+    else:
+        print("Choose a floor!")
+
+def main():
+
+    player_name =  input("What's your name? >")
+    print(f"Your name is {player_name.upper()}")
+
+    start_adventure()
+
+if __name__ == '__main__':
+    main()
